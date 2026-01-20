@@ -1,8 +1,6 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 // Prime Sieve Exercise
 // The purpose is to find Prime Numbers from [2, limit]
@@ -63,8 +61,3 @@ func sieve(limit int) {
 		fmt.Printf("Prime: %d\n", number)
 	}
 }
-func main() {
-	sieve(100)
-}
-
-// Generator -> Sieve

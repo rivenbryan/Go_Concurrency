@@ -1,13 +1,7 @@
 package main
 
-import "fmt"
-
 func main() {
-	fmt.Println("Starting Concurrent HTTP Requests...")
-	httpF()
-	fmt.Println()
-	fmt.Println("Starting Sequential HTTP Requests...")
-	httpS()
+	ch1()
 }
 
 // Generator -> Sieve
